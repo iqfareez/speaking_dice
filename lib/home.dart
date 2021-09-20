@@ -25,7 +25,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dice'),
+        title: const Text('Speaking Dice'),
       ),
       body: SizedBox(
         width: double.infinity,
