@@ -39,7 +39,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                 width: 200,
               ),
             ),
-            SizedBox(height: 25),
+            const SizedBox(height: 25),
             CupertinoButton.filled(
                 child: const Text('Roll'),
                 onPressed: () {
