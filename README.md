@@ -1,7 +1,6 @@
-[![Codemagic build status](https://api.codemagic.io/apps/613b622d9da1db4e765c40b7/613b622d9da1db4e765c40b6/status_badge.svg)](https://codemagic.io/apps/613b622d9da1db4e765c40b7/613b622d9da1db4e765c40b6/latest_build)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.iqfareez.speaking_dice&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
 
-# speaking_dice
+# Speaking Dice
 
-A new Flutter project.
-
-<a href='https://play.google.com/store/apps/details?id=com.iqfareez.speaking_dice&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+Just a simple dice app, but with Text-to-Speech (TTS) feature.
