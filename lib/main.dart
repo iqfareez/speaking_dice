@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localized_locales/flutter_localized_locales.dart';
 import 'package:speaking_dice/home.dart';
 
 void main() {
@@ -11,9 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      localizationsDelegates: const [LocaleNamesLocalizationsDelegate()],
       title: 'Speaking Dice',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        useMaterial3: true,
       ),
       home: const Home(),
     );
