@@ -3,6 +3,13 @@
 
 # Speaking Dice
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/iqfareez/speaking_dice/assets/60868965/ea7f1a50-b390-4b11-b176-425e976b80f4">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github.com/iqfareez/speaking_dice/assets/60868965/4f659eec-61dd-4863-b832-d452efad67ea">
+</picture>
+
+[Demo](https://imgur.com/91V5yaW)
+
 Just a simple dice app, but with Text-to-Speech (TTS) feature.
 
 > [!NOTE]
