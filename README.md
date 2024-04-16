@@ -5,6 +5,9 @@
 
 Just a simple dice app, but with Text-to-Speech (TTS) feature.
 
+> [!NOTE]
+> Not tested on platforms other than Android. Therefore, if you wanted to support other plaforms, run `flutter create . --platforms=<platform>` in the project directory to generate the necessary files.
+
 ## Attribution
 
 - `countries.json` is downloaded from https://stefangabos.github.io/world_countries/
