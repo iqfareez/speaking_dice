@@ -147,22 +147,28 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            RotationTransition(
-              turns: _animation,
-              child: Image.asset(
-                'assets/faces/$_dice.png',
-                width: 200,
+            Padding(
+              padding: const EdgeInsets.all(64.0),
+              child: RotationTransition(
+                turns: _animation,
+                child: Image.asset(
+                  'assets/faces/$_dice.png',
+                  color: Theme.of(context).brightness == Brightness.dark
+                      ? Colors.grey.shade100
+                      : null,
+                ),
               ),
             ),
             const SizedBox(height: 25),
             CupertinoButton.filled(
-                child: const Text('Roll'),
-                onPressed: () {
-                  _controller.reset();
-                  int newDice = Random().nextInt(6) + 1;
-                  setState(() => _dice = newDice);
-                  if (ttsEnabled) flutterTts.speak(_dice.toString());
-                })
+              child: const Text('Roll'),
+              onPressed: () {
+                _controller.reset();
+                int newDice = Random().nextInt(6) + 1;
+                setState(() => _dice = newDice);
+                if (ttsEnabled) flutterTts.speak(_dice.toString());
+              },
+            )
           ],
         ),
       ),

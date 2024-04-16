@@ -13,9 +13,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Speaking Dice',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        useMaterial3: true,
+      ),
+      themeMode: ThemeMode.system,
       home: const Home(),
     );
   }
