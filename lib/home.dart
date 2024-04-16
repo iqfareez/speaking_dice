@@ -6,7 +6,7 @@ import 'package:flutter_localized_locales/flutter_localized_locales.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({super.key});
 
   @override
   State<Home> createState() => _HomeState();
